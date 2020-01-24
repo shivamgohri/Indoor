@@ -22,6 +22,9 @@ android {
 
 dependencies {
     implementation 'com.bogdwellers:pinchtozoom:0.1'
+    implementation 'com.opencsv:opencsv:3.9'
+    implementation 'com.android.support:design:29.+'
+    implementation 'com.android.support:support-v4:29.'
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'androidx.appcompat:appcompat:1.0.2'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'

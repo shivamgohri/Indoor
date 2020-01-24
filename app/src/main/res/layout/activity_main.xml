@@ -3,14 +3,22 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@drawable/background"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/uiet"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="UIET"
-        tools:layout_editor_absoluteX="174dp"
-        tools:layout_editor_absoluteY="85dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <Button
+            android:id="@+id/uiet"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="UIET" />
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
